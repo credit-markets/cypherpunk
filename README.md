@@ -1,6 +1,6 @@
 # VitalFi: Earn Yield. Empower Healthcare.
 
-**Solana Cypherpunk Hackathon Submission | Built by Credit Markets**
+**Solana Cypherpunk Hackathon Submission**
 
 VitalFi connects liquidity providers directly to Brazilian medical receivables, eliminating costly intermediaries while delivering institutional-grade yields. Built on Solana for speed, transparency, and global accessibility.
 
@@ -103,24 +103,6 @@ This repository contains three submodules:
   - Multi-wallet support (Phantom, Solflare)
   - Real-time portfolio tracking
   - Vault transparency (collateral, hedges, receivables)
-
-## Key Features
-
-### For Liquidity Providers
-
-- **Institutional-Grade Yields:** Up to 16% APY backed by verified medical receivables
-- **Real-World Asset Exposure:** Diversify beyond crypto-native yields into healthcare financing
-- **Full Transparency:** On-chain verification of all receivables, payer creditworthiness, and currency hedges
-- **Predictable Maturity:** ~75-day lock periods with defined payout schedules
-- **Risk Mitigation:** Whitelisted institutional payers with 98%+ historical recovery rates
-- **Simple UX:** Deposit USDT → Lock → Earn at maturity
-
-### For Healthcare Providers
-
-- **Speed:** Get paid in **24 hours** instead of waiting 75+ days for insurance settlements
-- **Lower Costs:** Eliminate 15-25% annual factoring fees
-- **Capital Efficiency:** Improve cash flow for operational needs (payroll, supplies, equipment)
-- **Global Liquidity:** Access DeFi capital pools without geographic constraints
 
 ## How It Works
 

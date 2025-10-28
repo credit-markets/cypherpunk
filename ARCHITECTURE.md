@@ -256,29 +256,29 @@ Effects:
                           ▼
 ┌──────────────────────────────────────────────────────────┐
 │          POST /api/webhooks/helius?token={secret}        │
-│                                                           │
+│                                                          │
 │  1. Verify authentication                                │
 │  2. Parse transaction logs                               │
 │  3. Extract account updates (Vault/Position)             │
 │  4. Decode with Anchor BorshCoder                        │
 │  5. Normalize to DTOs                                    │
 │  6. Store in Redis                                       │
-│  7. Update indexes (ZSET by authority/owner)             │
+│  7. Update indexes                                       │
 └──────────────────────────┬───────────────────────────────┘
                            │
                            ▼
 ┌──────────────────────────────────────────────────────────┐
 │                  Redis (Vercel KV)                       │
-│                                                           │
+│                                                          │
 │  Strings:                                                │
 │    • vault:{pda}:json → VaultDTO                         │
 │    • position:{pda}:json → PositionDTO                   │
 │    • activity:{sig}:{type}:{slot} → ActivityDTO          │
-│                                                           │
+│                                                          │
 │  Sets (fallback):                                        │
 │    • authority:{pk}:vaults → Set<vaultPda>               │
 │    • owner:{pk}:positions → Set<positionPda>             │
-│                                                           │
+│                                                          │
 │  Sorted Sets (indexed queries):                          │
 │    • authority:{pk}:vaults:by_updated → ZSET<updatedAt>  │
 │    • authority:{pk}:vaults:by_updated:{status}           │
