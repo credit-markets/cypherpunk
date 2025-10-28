@@ -41,16 +41,16 @@ VitalFi consists of three integrated components:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                         User/Investor                        │
+│                         User/Investor                       │
 └─────────────────────────┬───────────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      VitalFi App (Frontend)                  │
-│   Next.js 15 + React 19 + Solana Wallet Adapter            │
+│                      VitalFi App (Frontend)                 │
+│   Next.js 15 + React 19 + Solana Wallet Adapter             │
 │   • Vault Dashboard & Deposits                              │
-│   • Portfolio Tracking                                       │
-│   • Transparency Pages                                       │
+│   • Portfolio Tracking                                      │
+│   • Transparency Pages                                      │
 └─────────────┬────────────────────────────┬──────────────────┘
               │                            │
               │ Read (APIs)                │ Write (Transactions)
@@ -103,8 +103,6 @@ This repository contains three submodules:
   - Multi-wallet support (Phantom, Solflare)
   - Real-time portfolio tracking
   - Vault transparency (collateral, hedges, receivables)
-  - Responsive design with dark mode
-  - Smart polling for transaction confirmations
 
 ## Key Features
 
@@ -123,15 +121,6 @@ This repository contains three submodules:
 - **Lower Costs:** Eliminate 15-25% annual factoring fees
 - **Capital Efficiency:** Improve cash flow for operational needs (payroll, supplies, equipment)
 - **Global Liquidity:** Access DeFi capital pools without geographic constraints
-
-### Technical Excellence
-
-- **Non-Custodial Security:** PDA-based smart contracts ensure users maintain full custody
-- **Threshold Funding:** 2/3 capacity requirement protects both LPs and healthcare providers
-- **Automatic Refunds:** Failed vaults return 100% of deposits via smart contract
-- **Currency Risk Management:** Transparent BRL/USD hedging via NDFs and forwards
-- **Real-Time Indexing:** Instant transaction visibility via Helius webhooks
-- **Production-Grade:** Comprehensive test coverage and error handling
 
 ## How It Works
 
@@ -327,27 +316,6 @@ npm test
 - GitHub Actions (CI/CD)
 - Vercel (deployment)
 - Anchor CLI (program deployment)
-
-## Why Solana?
-
-VitalFi leverages Solana's unique capabilities for real-world asset financing:
-
-- **Speed:** Sub-second finality enables same-day medical provider payments
-- **Cost:** Sub-cent transaction fees make small deposits economically viable
-- **Throughput:** Supports thousands of concurrent vaults and transactions
-- **Transparency:** All vault parameters and collateral verifiable on-chain
-- **Global Access:** Borderless capital for Brazilian healthcare, 24/7
-
-## About Credit Markets
-
-Credit Markets specializes in structured finance and real-world asset tokenization. We originate and service medical receivables in Brazil, maintaining partnerships with institutional payers and healthcare providers. VitalFi is our flagship DeFi product, connecting global liquidity to emerging market healthcare financing.
-
-**Key Metrics:**
-
-- 98%+ historical receivable recovery rate
-- 12+ whitelisted institutional payers (average AA+ rating)
-- $627B total addressable market
-- 500K+ potential healthcare provider users
 
 ## License
 
