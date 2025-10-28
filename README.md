@@ -104,6 +104,32 @@ This repository contains three submodules:
   - Real-time portfolio tracking
   - Vault transparency (collateral, hedges, receivables)
 
+## Key Features for Liquidity Providers
+
+### Real-Time Vault Dashboard
+- **Live Metrics:** Track TVL, APY, funding progress, and vault timeline in real-time
+- **Portfolio Management:** Monitor positions across multiple vaults with expected returns
+- **Activity Feed:** View all deposits, claims, and vault state changes instantly
+- **Responsive Design:** Seamless experience on desktop and mobile
+
+### Full Transparency
+- **On-Chain Verification:** All receivables, collateral, and vault parameters publicly auditable
+- **Payer Creditworthiness:** 12+ whitelisted institutional payers (average AA+ rating)
+- **Currency Hedging:** Transparent BRL/USD hedge positions (NDFs, forwards, swaps)
+- **Risk Metrics:** 98%+ historical receivable recovery rate
+
+### Institutional-Grade Returns
+- **Fixed Yields:** Up to 16% APY backed by verified medical receivables
+- **Predictable Terms:** ~75-day lock periods with defined maturity dates
+- **Automatic Payouts:** Smart contract-enforced claims at maturity
+- **Real-World Assets:** Diversify beyond crypto-native yields into healthcare financing
+
+### Simple User Flow
+1. **Connect** Solana wallet (Phantom, Solflare)
+2. **Deposit** USDT into active funding vaults
+3. **Track** portfolio performance and expected returns
+4. **Claim** principal + yield at maturity—zero active management
+
 ## How It Works
 
 ### Vault Lifecycle
