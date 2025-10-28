@@ -1,0 +1,9 @@
+[submodule "programs"]
+	path = programs
+	url = ../vitalfi-programs
+[submodule "backend"]
+	path = backend
+	url = ../vitalfi-backend
+[submodule "app"]
+	path = app
+	url = ../vitalfi-app
