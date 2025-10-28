@@ -1,9 +1,9 @@
 [submodule "programs"]
 	path = programs
-	url = ../vitalfi-programs
+	url = https://github.com/credit-markets/vitalfi-programs.git
 [submodule "backend"]
 	path = backend
-	url = ../vitalfi-backend
+	url = https://github.com/credit-markets/vitalfi-backend.git
 [submodule "app"]
 	path = app
-	url = ../vitalfi-app
+	url = https://github.com/credit-markets/vitalfi-app.git

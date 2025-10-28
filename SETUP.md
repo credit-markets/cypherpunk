@@ -1,6 +1,8 @@
 # VitalFi Setup Guide
 
-Complete guide to setting up the VitalFi development environment and deploying to various networks.
+**Complete guide to setting up the VitalFi development environment and deploying to Solana networks.**
+
+Built by Credit Markets for transparent, institutional-grade medical receivables financing.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
@@ -124,7 +126,7 @@ vercel login
 
 ```bash
 # Clone with submodules
-git clone --recurse-submodules https://github.com/YOUR_ORG/cypherpunk.git
+git clone --recurse-submodules https://github.com/credit-markets/cypherpunk.git
 cd cypherpunk
 
 # Or if already cloned without submodules
@@ -631,15 +633,21 @@ After successful setup:
 
 ## Additional Resources
 
+- **VitalFi Docs:** https://docs.vitalfi.lat
+- **Landing Page:** https://vitalfi.lat
 - **Solana Docs:** https://docs.solana.com
 - **Anchor Book:** https://book.anchor-lang.com
 - **Helius Docs:** https://docs.helius.xyz
 - **Vercel Docs:** https://vercel.com/docs
-- **Next.js Docs:** https://nextjs.org/docs
 
 ---
 
 **Need Help?**
-- Open an issue in the repo
-- Join our Discord: [Discord link]
-- Email: team@vitalfi.io
+
+- **GitHub Issues:** Open an issue in the repo
+- **Email:** team@vitalfi.io
+- **Website:** https://vitalfi.lat
+
+---
+
+**Powered by Credit Markets | Built on Solana**
