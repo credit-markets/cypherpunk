@@ -77,58 +77,9 @@ This repository contains three submodules:
 
 ### 1. [programs/](./programs) - Solana Smart Contracts
 
-- **Language:** Rust with Anchor Framework 0.31.1
-- **Program ID:** `146hbPFqGb9a3v3t1BtkmftNeSNqXzoydzVPk95YtJNj`
-- **Features:**
-  - Threshold-based crowdfunding (requires 2/3 capacity)
-  - SPL token deposits with minimum amount enforcement
-  - Deterministic PDA-based account architecture
-  - Automatic refunds for failed funding rounds
-  - Proportional payout distribution at maturity
-  - Comprehensive event emissions for indexing
-
 ### 2. [backend/](./backend) - Indexing & Caching Layer
 
-- **Stack:** TypeScript + Vercel Serverless + Redis
-- **Purpose:**
-  - Real-time blockchain event processing via Helius webhooks
-  - Efficient caching with ETag support
-  - Paginated REST APIs for vaults, positions, and activity
-  - Optimized query performance with Redis sorted sets
-
 ### 3. [app/](./app) - Frontend DApp
-
-- **Stack:** Next.js 15 + React 19 + TanStack Query + Tailwind CSS
-- **Features:**
-  - Multi-wallet support (Phantom, Solflare)
-  - Real-time portfolio tracking
-  - Vault transparency (collateral, hedges, receivables)
-
-## Key Features for Liquidity Providers
-
-### Real-Time Vault Dashboard
-- **Live Metrics:** Track TVL, APY, funding progress, and vault timeline in real-time
-- **Portfolio Management:** Monitor positions across multiple vaults with expected returns
-- **Activity Feed:** View all deposits, claims, and vault state changes instantly
-- **Responsive Design:** Seamless experience on desktop and mobile
-
-### Full Transparency
-- **On-Chain Verification:** All receivables, collateral, and vault parameters publicly auditable
-- **Payer Creditworthiness:** 12+ whitelisted institutional payers (average AA+ rating)
-- **Currency Hedging:** Transparent BRL/USD hedge positions (NDFs, forwards, swaps)
-- **Risk Metrics:** 98%+ historical receivable recovery rate
-
-### Institutional-Grade Returns
-- **Fixed Yields:** Up to 16% APY backed by verified medical receivables
-- **Predictable Terms:** ~75-day lock periods with defined maturity dates
-- **Automatic Payouts:** Smart contract-enforced claims at maturity
-- **Real-World Assets:** Diversify beyond crypto-native yields into healthcare financing
-
-### Simple User Flow
-1. **Connect** Solana wallet (Phantom, Solflare)
-2. **Deposit** USDT into active funding vaults
-3. **Track** portfolio performance and expected returns
-4. **Claim** principal + yield at maturity—zero active management
 
 ## How It Works
 
