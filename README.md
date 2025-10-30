@@ -23,7 +23,7 @@ VitalFi delivers **up to 16% APY** backed by institutional-grade medical receiva
 
 - Earn predictable yields from real-world healthcare financing
 - Full on-chain transparency of collateral and payer creditworthiness
-- Smart contract-enforced payouts at maturity (~75 days)
+- Programs-enforced payouts at maturity (~75 days)
 - Deposit USDT, earn yield—no active management required
 
 **For Healthcare Providers:**
@@ -59,7 +59,7 @@ VitalFi consists of three integrated components:
 │  VitalFi Backend        │  │    Solana Blockchain          │
 │  (Indexing Layer)       │  │    VitalFi Programs           │
 │                         │  │                               │
-│  • Vercel Functions     │  │  • Anchor Smart Contracts     │
+│  • Vercel Functions     │  │  • Anchor Programs            │
 │  • Redis Cache          │  │  • Vault Management           │
 │  • REST APIs            │  │  • Position Tracking          │
 │  • Activity Feed        │  │  • Trustless Settlements      │
@@ -75,7 +75,7 @@ VitalFi consists of three integrated components:
 
 This repository contains three submodules:
 
-### 1. [programs/](./programs) - Solana Smart Contracts
+### 1. [programs/](./programs) - Solana Programs
 
 ### 2. [backend/](./backend) - Indexing & Caching Layer
 
@@ -140,7 +140,7 @@ cd cypherpunk
 git submodule update --init --recursive
 ```
 
-### Setup Programs (Smart Contracts)
+### Setup Programs
 
 ```bash
 cd programs
@@ -210,7 +210,7 @@ Open [http://localhost:3000](http://localhost:3000) and connect your Solana wall
 
 ## Testing
 
-### Smart Contract Tests
+### Programs Tests
 
 ```bash
 cd programs
@@ -252,7 +252,7 @@ npm test
 ### Blockchain Layer
 
 - Solana (high throughput, low fees)
-- Anchor Framework (Rust smart contracts)
+- Anchor Framework (Rust)
 - SPL Token Program (token standard)
 
 ### Backend
