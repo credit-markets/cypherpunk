@@ -75,11 +75,11 @@ VitalFi consists of three integrated components:
 
 This repository contains three submodules:
 
-### 1. [programs/](./programs) - Solana Programs
+### 1. [programs/](https://github.com/credit-markets/vitalfi-programs/tree/cypherpunk) - Solana Programs
 
-### 2. [backend/](./backend) - Indexing & Caching Layer
+### 2. [backend/](https://github.com/credit-markets/vitalfi-backend/tree/cypherpunk) - Indexing & Caching Layer
 
-### 3. [app/](./app) - Frontend DApp
+### 3. [app/](https://github.com/credit-markets/vitalfi-app/tree/cypherpunk) - Frontend DApp
 
 ## How It Works
 
